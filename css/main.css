@@ -46,18 +46,40 @@ body {
 	color: white;
 }
 
+.nav-bar-top a.selected {
+	background-color: PowderBlue;
+}
+
 #home-top-pic{
 	width: 100%
 }
 
 #home-top-pic-text {
-	width: 100%;
+	padding: 0 8px;
 	position: absolute;
 	top: 50%;
 	left: 0;
 	color: black;
 	background-color: white;
 	text-align: center;
+	border: solid black 1px;
+	border-radius: 20px 0px 20px 0px;
+}
+
+#home-top-pic-text:hover {
+	color: white;
+	background-color: black;
+	border: solid white 1px;
+	border-radius: 0px 20px 0px 20px;
+}
+
+#home-top-pic-text a{
+	text-decoration: none;
+	color: black;
+}
+
+#home-top-pic-text a:hover {
+	color: white;
 }
 
 #home-top-picture ul {
@@ -71,7 +93,7 @@ body {
 .hover-txt {
 	visibility: hidden;
 	border: solid black 1px;
-	border-radius:0px 50px;
+	border-radius:20px;
 }
 
 .nav-bar-bottom li {
@@ -135,7 +157,7 @@ body {
   	text-align: center;
   	position: absolute;
   	top: 44%;
-  	left: 46%;
+  	left: 45%;
   }
 
   .social-media {
@@ -146,7 +168,7 @@ body {
 
   .social-media img{
 	outline-color: white;
-	padding: 0;
+	padding: 0px;
   }
   
   .social-media li {
@@ -158,27 +180,33 @@ body {
   }
   
   .fbicon {
+	padding: 0 3px;
 	position: absolute;
 	top: -65%;
-	left: -12%;
+	left: -15%;
 	background-color: #3b5998;
 	color: white;
+	overflow: hidden;
   }
   
   .twiticon {
+	padding: 0 3px;
 	position: absolute;
 	top: -65%;
-	left: 32%;
+	left: 27%;
 	background-color: #00aced;
 	color: white;
+	overflow: hidden;
   }
   
   .lnkinicon {
+	padding: 0 3px;
 	position: absolute;
 	top: -65%;
-	left: 60%;
+	left: 56%;
 	background-color: #007bb6;
 	color: white;
+	overflow: hidden;
   }
 
 }
