@@ -159,6 +159,20 @@ body {
   	top: 44%;
   	left: 45%;
   }
+  
+  #index-header {
+	  position: absolute;
+	  top: 30%;
+	  left: 40%;
+	  color: white;
+	  text-shadow:
+	  -1px -1px 0 #000,
+	  1px -1px 0 #000,
+	  -1px 1px 0 #000,
+	  1px 1px 0 #000;
+	  font-size: larger;
+	  text-align: center;
+  }
 
   .social-media {
     position: absolute;
