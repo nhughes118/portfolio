@@ -6,6 +6,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
     <script src="js/main.js" charset="utf-8"></script>
   </head>
   <body>
@@ -17,7 +21,17 @@
 	        <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html" class="selected">Portfolio</a></li>
+            <li class="dropdown">
+            <a class="selected">Portfolio</a>
+            
+            	<ul class="drpdwncontent">
+	            	<li><a href="index.html">ITEM one</a></li>
+	            	<li><a href="about.html">ITEM two</a></li>
+	            	<li><a href="contact.html">ITEM three</a></li>
+	            	<li><a href="portfolio.html">ITEM four</a></li>
+            	</ul>
+            
+            </li>
           </ul>
         </div>
       </header>
