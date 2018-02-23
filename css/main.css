@@ -69,6 +69,14 @@ body {
 	cursor: pointer;
 }
 
+.nav-bar-top ul.style {
+	display: block;
+}
+
+body.nav-bar-open {
+	padding-top: 378px;
+}
+
 /* TOP OF INDEX.HTML */
 #home-top-pic{
 	position: static;
@@ -129,14 +137,14 @@ div#home-top-pic-text {
 /* INDEX.HTML SECTION 2 */
 #section-2-row {
 	padding-top: 5px;
+	text-align: center;
 	clear: both;
 }
 
-/*
-.col {
-	border: solid green 2px;
+#section-2-row img{
+	height: 100px;
+	width: auto;
 }
-*/
 
 /* BOTTOM NAV BAR */
 .nav-bar-bottom li {
@@ -202,6 +210,10 @@ div#home-top-pic-text {
 	  display: block;
 	  background-color: AliceBlue;
   }
+  
+  .nav-bar-top ul.style {
+	  display: none;
+  }
 
   #site-title {
     float: left;
@@ -210,6 +222,10 @@ div#home-top-pic-text {
   .nav-bar-top a:hover{
     background-color: PowderBlue;
     text-decoration: none;
+  }
+  
+  body.nav-bar-open {
+	  padding-top: 0;
   }
  
 /*  TOP OF INDEX.HTML */
@@ -220,34 +236,15 @@ div#home-top-pic-text {
   }
   
   #page-top li {
-	  display: block;
+	  display: inline;
 	  text-align: center;
 	  width: 70px;
 	  margin: auto;
   }
   
-  .social-media li:hover .hover-txt{
-  	display: block;
-  	padding: 4px 3px;
-  	text-align: center;
-  }
-  
-  .fbicon {
-	padding: 0 3px;
-	background-color: #3b5998;
-	color: white;
-  }
-  
-  .twiticon {
-	padding: 0 3px;
-	background-color: #00aced;
-	color: white;
-  }
-  
-  .lnkinicon {
-	padding: 0 3px;
-	background-color: #007bb6;
-	color: white;
+  .social-media img{
+	  display: block;
+	  margin: 0 auto;
   }
   
  /* INDEX.HTML SECTION 2 */
