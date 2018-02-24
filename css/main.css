@@ -149,6 +149,15 @@ div#home-top-pic-text {
 	width: auto;
 }
 
+#top{
+	position: absolute;
+	width: 25px;
+	height: auto;
+	right: 5px;
+	bottom: 5px;
+	cursor: pointer;
+}
+
 /* BOTTOM NAV BAR */
 .nav-bar-bottom li {
 	display: inline-block;
@@ -227,6 +236,11 @@ div#home-top-pic-text {
 		text-decoration: none;
 	}
 	
+	.nav-bar-top ul.style {
+		border-top: hidden;
+		border-bottom: hidden;
+	}
+	
 	body.nav-bar-open {
 		padding-top: 0;
 	}
@@ -266,10 +280,10 @@ div#home-top-pic-text {
 		width: 100%;
 	}
 	
-	
 	/*  BOTTOM NAV BAR */
 	.nav-bar-bottom {
 		display: none;
 	}
+	
 
 }
