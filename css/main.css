@@ -124,13 +124,13 @@ div#home-top-pic-text {
 	1px 1px 0 #000;
 }
 
-#name {
+#hello a {
 	color: white;
 	text-decoration: none;
 	border-bottom: dotted white 2px;
 }
 
-#name:hover{
+#hello a:hover {
 	border-bottom: dotted white 1px;
 }
 
