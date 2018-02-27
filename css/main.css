@@ -114,6 +114,7 @@ div#home-top-pic-text {
 
 #hello {
 	display: inline-block;
+	margin-bottom: 3px;
 	color: white;
 	font-size: 1.5em;
 	text-shadow:
@@ -121,6 +122,16 @@ div#home-top-pic-text {
 	1px -1px 0 #000,
 	-1px 1px 0 #000,
 	1px 1px 0 #000;
+}
+
+#name {
+	color: white;
+	text-decoration: none;
+	border-bottom: dotted white 2px;
+}
+
+#name:hover{
+	border-bottom: dotted white 1px;
 }
 
 #home-top-picture ul {
