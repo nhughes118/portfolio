@@ -134,6 +134,10 @@ div#home-top-pic-text {
 	border-bottom: dotted white 1px;
 }
 
+#hello a:visited {
+	color: white;
+}
+
 #home-top-picture ul {
 	display: none;
 }
@@ -192,6 +196,24 @@ div#home-top-pic-text {
 	z-index: 100;
 	border-top: solid black 1px;
 }
+
+/* CONTACT PAGE MAP */
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+/* CONTACT PAGE FORM */
+.col-border {
+	border: solid black 2px;
+}
+
+#form-row {
+	padding-top: 5px;
+	text-align: center;
+	clear: both;
+}
+
 
 @media all and (min-width: 940px){
 	body {
@@ -294,6 +316,16 @@ div#home-top-pic-text {
 	/*  BOTTOM NAV BAR */
 	.nav-bar-bottom {
 		display: none;
+	}
+	
+	/* CONTACT PAGE MAP */
+	#map {
+		margin-top: 45px;
+	}
+	
+	#form-row {
+		display: flex;
+		flex-wrap: wrap;
 	}
 	
 

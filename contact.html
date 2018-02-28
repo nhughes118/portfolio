@@ -11,6 +11,7 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"></script>
     <script src="js/main.js" charset="utf-8"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQrsKNj75LHraWEkyJ6R5cGp1gQBSa_0E&callback=myMap"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -31,11 +32,24 @@
 	            	<li><a href="contact.html">~Project 3~</a></li>
 	            	<li><a href="portfolio.html">~Project 4~</a></li>
             	</ul>
-            
             </li>
           </ul>
         </div>
       </header>
+      <div>
+	      <iframe id="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Philadelphia&key=AIzaSyD32oWMktyIsAixnqJ4UExR6SlxyrD-mtY" allowfullscreen></iframe>
+      </div>
+      
+      <div id="form-row">
+	      <div class="col-3-4 col-border">
+		      <p>Paragraphs with info about me</p>
+	      </div>
+	      <div class="col-1-4 col-border">
+		      <p>pic of me</p>
+	      </div>
+      </div>
+      
+      </div>
     </div>
   </body>
 </html>
