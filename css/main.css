@@ -204,14 +204,19 @@ div#home-top-pic-text {
 }
 
 /* CONTACT PAGE FORM */
-.col-border {
-	border: solid black 2px;
-}
-
 #form-row {
 	padding-top: 5px;
 	text-align: center;
 	clear: both;
+}
+
+.form-field {
+	padding: 10px;
+}
+
+#submit-button {
+	display: flex;
+	margin: 0 auto;
 }
 
 

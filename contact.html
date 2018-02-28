@@ -11,7 +11,6 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"></script>
     <script src="js/main.js" charset="utf-8"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQrsKNj75LHraWEkyJ6R5cGp1gQBSa_0E&callback=myMap"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -37,19 +36,43 @@
         </div>
       </header>
       <div>
-	      <iframe id="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Philadelphia&key=AIzaSyD32oWMktyIsAixnqJ4UExR6SlxyrD-mtY" allowfullscreen></iframe>
+		<iframe id="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Philadelphia&key=AIzaSyD32oWMktyIsAixnqJ4UExR6SlxyrD-mtY" allowfullscreen></iframe>
       </div>
       
       <div id="form-row">
-	      <div class="col-3-4 col-border">
-		      <p>Paragraphs with info about me</p>
+	      <div class="col-3-4">
+		      <form action="mailto:nhughes118@gmail.com" method="get" enctype="text/plain">
+			  <input name="subject" type="hidden" value="Email Subject">
+		      <p class="form-field">First Name:</p>
+		      <input type="text" name="body" id="fname" placeholder="First Name" style="width: 321px">
+		      <p class="form-field">Last Name:</p>
+		      <input type="text" name="lastname" id="lname" placeholder="Last Name" style="width: 321px">
+		      <p class="form-field">Email Address:</p>
+		      <input type="text" name="email" id="email" placeholder="Email Address" style="width: 321px">
+		      <p class="form-field">Question / Comments:</p>
+		      <textarea rows="4" cols="50" name="body" id="comments">
+		      </textarea>
+		      <input type="submit" name="Submit" value="Submit" id="submit-button">
+		      </form>
 	      </div>
-	      <div class="col-1-4 col-border">
+	      <div class="col-1-4">
 		      <p>pic of me</p>
 	      </div>
       </div>
-      
-      </div>
+          <div class="nav-bar-bottom">
+	    <footer>
+		    <img id="top" src="img/back-to-top.svg" alt="back to top">
+
+		    <ul class="social-media">
+          <li><a href="https://www.facebook.com"><img src="img/fb-icon.png" alt="fb-icon"></a>
+          <span class="hover-txt fbicon">Facebook</span></li>
+          <li><a href="https://www.twitter.com"><img src="img/twit-icon.png" alt="twit-icon"></a>
+          <span class="hover-txt twiticon">Twitter</span></li>
+          <li><a href="https://www.linkedin.com"><img src="img/linkdin-icon.png" alt="linkdin-icon"></a>
+          <span class="hover-txt lnkinicon">LinkedIn</span></li>
+        </ul>
+	    </footer>
+    </div>
     </div>
   </body>
 </html>
