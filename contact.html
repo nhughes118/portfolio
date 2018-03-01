@@ -1,78 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Nick Hughes | Web Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"></script>
-    <script src="js/main.js" charset="utf-8"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <div class="boxed-layout">
-      <header>
-        <div class="nav-bar-top">
-          <p id="site-title">Nick Hughes | Web Developer</p>
-          <ul>
-	        <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html" class="selected">Contact</a></li>
-            <li class="dropdown">
-            <a>Portfolio</a>
-            
-            	<ul class="drpdwncontent">
-	            	<li><a href="index.html">~Project 1~</a></li>
-	            	<li><a href="about.html">~Project 2~</a></li>
-	            	<li><a href="contact.html">~Project 3~</a></li>
-	            	<li><a href="portfolio.html">~Project 4~</a></li>
-            	</ul>
-            </li>
-          </ul>
-        </div>
-      </header>
-      <div>
-		<iframe id="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Philadelphia&key=AIzaSyD32oWMktyIsAixnqJ4UExR6SlxyrD-mtY" allowfullscreen></iframe>
-      </div>
-      
-      <div id="form-row">
-	      <div class="col-3-4">
-		      <form action="mailto:nhughes118@gmail.com" method="get" enctype="text/plain">
-			  <input name="subject" type="hidden" value="Email Subject">
-		      <p class="form-field">First Name:</p>
-		      <input type="text" name="body" id="fname" placeholder="First Name" style="width: 321px">
-		      <p class="form-field">Last Name:</p>
-		      <input type="text" name="lastname" id="lname" placeholder="Last Name" style="width: 321px">
-		      <p class="form-field">Email Address:</p>
-		      <input type="text" name="email" id="email" placeholder="Email Address" style="width: 321px">
-		      <p class="form-field">Question / Comments:</p>
-		      <textarea rows="4" cols="50" name="body" id="comments">
-		      </textarea>
-		      <input type="submit" name="Submit" value="Submit" id="submit-button">
-		      </form>
-	      </div>
-	      <div class="col-1-4">
-		      <p>pic of me</p>
-	      </div>
-      </div>
-          <div class="nav-bar-bottom">
-	    <footer>
-		    <img id="top" src="img/back-to-top.svg" alt="back to top">
-
-		    <ul class="social-media">
-          <li><a href="https://www.facebook.com"><img src="img/fb-icon.png" alt="fb-icon"></a>
-          <span class="hover-txt fbicon">Facebook</span></li>
-          <li><a href="https://www.twitter.com"><img src="img/twit-icon.png" alt="twit-icon"></a>
-          <span class="hover-txt twiticon">Twitter</span></li>
-          <li><a href="https://www.linkedin.com"><img src="img/linkdin-icon.png" alt="linkdin-icon"></a>
-          <span class="hover-txt lnkinicon">LinkedIn</span></li>
-        </ul>
-	    </footer>
-    </div>
-    </div>
-  </body>
+	<head>
+	<meta charset="utf-8">
+	<title>Nick Hughes | Web Developer</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/icons.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous"></script>
+	<script src="js/main.js" charset="utf-8"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="boxed-layout">
+			<header>
+			<div class="nav-bar-top">
+				<p id="site-title">Nick Hughes | Web Developer</p>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html" class="selected">Contact</a></li>
+					<li class="dropdown">
+					<a>Portfolio</a>
+					<ul class="drpdwncontent">
+						<li><a href="index.html">~Project 1~</a></li>
+						<li><a href="about.html">~Project 2~</a></li>
+						<li><a href="contact.html">~Project 3~</a></li>
+						<li><a href="portfolio.html">~Project 4~</a></li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+			</header>
+			<div>
+				<iframe id="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Philadelphia&key=AIzaSyD32oWMktyIsAixnqJ4UExR6SlxyrD-mtY" allowfullscreen></iframe>
+			</div>
+			
+			<div id="form-row">
+				<form action="https://docs.google.com/forms/d/e/1FAIpQLSdWLY5b-xvwoYlYjAnzBbc4bqncnu115dk116PRFq0xeCXjFg/formResponse" >
+					<label for="fName">First Name</label>
+					<input name="entry.1012520588" placeholder="First Name" type="text" id="fName"/>
+					<label for="lName">Last Name</label>
+					<input name="entry.1704333670" placeholder="Last Name" type="text" id="lName"=/>
+					<label for="emailAdd">Email Address</label>
+					<input name="entry.1850078361" placeholder="Email Address" type="text" id="emailAdd"/>
+					<label for="comments">Questions and/or Comments</label>
+					<textarea name="entry.1517709956" id="comments"/></textarea>
+					<input class="button" type="submit" value="Submit">
+				</form>
+			
+			
+				<div id="contact-info">
+					<i class="icon-phone contact-icon"></i>
+					<p id="num">(555)555-5555</p>
+					<i class="icon-mail contact-icon"></i>
+					<p id="mail">email@email.com</p>
+				</div>
+			</div>
+			<div class="nav-bar-bottom">
+				<footer>
+				<img id="top" src="img/back-to-top.svg" alt="back to top">
+				<a href="https://www.twitter.com"><i class="icon-twitter foot-social"></i></a>
+				<a href="https://www.facebook.com"><i class="icon-facebook foot-social"></i></a>
+				<a href="https://www.linkedin.com"><i class="icon-linkedin foot-social"></i></a>
+				</footer>
+			</div>
+		</div>
+	</body>
 </html>
