@@ -20,7 +20,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 100;
+	z-index: 4;
 	border-bottom: solid black 1px;
 }
 
@@ -111,7 +111,6 @@ div#home-top-pic-text {
 	text-align: center;
 }
 
-
 #hello {
 	display: inline-block;
 	margin-bottom: 5px;
@@ -158,6 +157,11 @@ div#home-top-pic-text {
 	width: auto;
 }
 
+#section-2-row p {
+	padding: 5px;
+	margin-bottom: 3px;
+}
+
 #top{
 	position: absolute;
 	width: 25px;
@@ -165,6 +169,30 @@ div#home-top-pic-text {
 	right: 5px;
 	bottom: 5px;
 	cursor: pointer;
+}
+
+/* ABOUT.HTML */
+.about-me-1 {
+	height: 175px;
+	width: 30%;
+	min-width: 192px;
+	margin: 40px auto;
+	padding: 8px;
+	background: #9498c1;
+	color: black;
+	transform: rotate(20deg);
+}
+
+.about-me-1 p {
+	text-align: center;
+	background: white;
+	width: 80%;
+	margin: 8px auto;
+	transform: rotate(-20deg);
+}
+
+#my-pic img {
+	height: 300px;
 }
 
 /* BOTTOM NAV BAR */
@@ -215,14 +243,18 @@ div#home-top-pic-text {
 }
 
 #form-row form input {
+	border: solid black 1px;
 	display: block;
 	padding: 5px;
 	margin: 10px auto;
 }
 
 #form-row form textarea {
-	display: block;
+	resize: none;
+	height: 65px;
+	width: 139px;
 	padding: 5px;
+	display: block;
 	margin: 10px auto;
 }
 
@@ -251,7 +283,7 @@ div#home-top-pic-text {
 
 .contact-icon {
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.5em;
 }
 
 
@@ -393,7 +425,7 @@ div#home-top-pic-text {
 	}
 	
 	#form-row {
-		height: 305px;
+		height: 330px;
 		width: 80%;
 	}
 	
@@ -407,19 +439,49 @@ div#home-top-pic-text {
 		margin: 10px auto;
 	}
 	
-	#form-row form textarea {
-		padding: 5px;
-		margin: 10px auto;
-	}
-	
 	#contact-info {
 		float: right;
 		height: 100%;
 		border: none;
-		border-left: solid black 1px;
-		padding-top: 87px;
+		padding-top: 100px;
 	}
-
 	
+	#mail {
+		margin: 10px;
+	}
+	
+	#num {
+		margin: 10px;
+	}
+	
+	/* 	ABOUT.HTML */
+	.about-me-1 {
+		height: 175px;
+		width: 50%;
+		min-width: 192px;
+		margin: 20% auto;
+		padding: 8px;
+		background: #9498c1;
+		color: black;
+		transform: rotate(20deg);
+		z-index: 100;
+		z-index: 3;
+	}
+	
+	.about-me-1 p {
+		text-align: center;
+		background: white;
+		width: 80%;
+		margin: 8px auto;
+		transform: rotate(-20deg);
+	}
+	
+	#my-pic img {
+		position: fixed;
+		bottom: 0;
+		right: 50px;
+		display: block;
+		height: 500px;
+	}
 
 }
