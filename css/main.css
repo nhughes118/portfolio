@@ -278,7 +278,7 @@ div#home-top-pic-text {
 
 #mail {
 	display: block;
-	margin: 5px;
+	margin: 0;
 }
 
 .contact-icon {
@@ -421,7 +421,7 @@ div#home-top-pic-text {
 	}
 	
 	#form-row {
-		height: 330px;
+		height: 340px;
 		width: 80%;
 	}
 	
@@ -443,7 +443,7 @@ div#home-top-pic-text {
 	}
 	
 	#mail {
-		margin: 10px;
+		margin: 5px;
 	}
 	
 	#num {
@@ -480,4 +480,10 @@ div#home-top-pic-text {
 		height: 500px;
 	}
 
+}
+
+@media all and (min-width: 1675px){
+	.about-me-1 {
+		margin: 12% auto; /* fixes skills section on browsers with bigger viewports */
+	}
 }
