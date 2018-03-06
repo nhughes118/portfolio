@@ -1,4 +1,4 @@
-$(document ).ready(function(){
+$(document).ready(function(){
 	
 	$('.dropdown').on('click', function(){
 		$('.drpdwncontent').toggleClass('style');
