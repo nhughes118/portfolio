@@ -307,7 +307,7 @@ body#thank-page {
 	width: 75%;
 	height: 150px;
 	margin: 0px auto;
-	background: -webkit-linear-gradient(#8a8a8a 0%, #74307a 72.85%);
+	background:-webkit-linear-gradient(#5d86b8 20.19%, #434bad 100%);
 	color: white;
 	border: solid 1px black;
 	overflow: hidden;
