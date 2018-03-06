@@ -7,7 +7,7 @@ body {
 	font-size: 16px;
 	font-weight: normal;
 	padding-top: 114px;
-	overflow: auto; /* hides scroll bar */
+	overflow: scroll;
 	padding-top: 203px;
 	padding-bottom: 36px;
 	background-color: #dddddd;
@@ -164,10 +164,6 @@ div#home-top-pic-text {
 #section-2-row img{
 	height: 100px;
 	width: auto;
-}
-
-#section-2-row img:hover {
-	transform: rotate(5deg);
 }
 
 #section-2-row p {
