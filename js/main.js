@@ -14,28 +14,62 @@ $(document).ready(function(){
 	});
 	
 	$('#site-1').click(function(){
-		$('html,body').animate({
-			'scrollTop': $('#scroll-1').offset().top-100
-		}, 500);
+		var w = $(window).width()
+		console.log(w);
+		if (w <=940) {
+			$('html,body').animate({
+				'scrollTop': $('#scroll-1').offset().top-400
+			});
+		} else {
+			$('html,body').animate({
+				'scrollTop': $('#scroll-1').offset().top-100
+			});
+		};
 	});	
 	
 	$('#site-2').click(function(){
-		$('html,body').animate({
-			'scrollTop': $('#scroll-2').offset().top-100
-		}, 500);
+		var w = $(window).width()
+		console.log(w);
+		if (w <=940) {
+			$('html,body').animate({
+				'scrollTop': $('#scroll-2').offset().top-400
+			});
+		} else {
+			$('html,body').animate({
+				'scrollTop': $('#scroll-2').offset().top-100
+			});
+		};
 	});	
 	
 	$('#site-3').click(function(){
-		$('html,body').animate({
-			'scrollTop': $('#scroll-3').offset().top-100
-		}, 500);
+		var w = $(window).width()
+		console.log(w);
+		if (w <=940) {
+			$('html,body').animate({
+				'scrollTop': $('#scroll-3').offset().top-400
+			});
+		} else {
+			$('html,body').animate({
+				'scrollTop': $('#scroll-3').offset().top-100
+			});
+		};
 	});	
 	
 	$('#site-4').click(function(){
-		$('html,body').animate({
-			'scrollTop': $('#scroll-4').offset().top-100
-		}, 500);
+		var w = $(window).width()
+		console.log(w);
+		if (w <=940) {
+			$('html,body').animate({
+				'scrollTop': $('#scroll-4').offset().top-400
+			});
+		} else {
+			$('html,body').animate({
+				'scrollTop': $('#scroll-4').offset().top-100
+			});
+		};
 	});
+	
+	
 	
 	$('.site-1-all').click(function(){
 		window.location.href = "portfolio.html";
