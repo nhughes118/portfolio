@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$('#pic-js').animate({'bottom': '0px'}, 1000);
 	});
 	
-	$(function(){
+	$(function goBack(){
 		window.history.back();
 	});
   
