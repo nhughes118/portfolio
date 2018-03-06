@@ -383,6 +383,7 @@ body#thank-page {
 }
 
 .item-links a:hover {
+	color: white;
 	text-decoration: underline;
 }
 
@@ -588,6 +589,19 @@ body#thank-page {
 @media all and (max-width: 492px){
 	#ty-page {
 		height: 200px;
+	}
+		
+	.item-title a{
+		font-size: 1em;
+		
+	}
+	
+	.item-links {
+		padding: 13px auto;
+	}
+	
+	.item-links a {
+		font-size: 1em;
 	}
 }
 
