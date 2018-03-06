@@ -13,8 +13,8 @@ $(document ).ready(function(){
 		$('#pic-js').animate({'bottom': '0px'}, 1000);
 	});
 	
-	$('#go-back').on('click', function(){
+	function goBack(){
 		window.history.back();
-	});
+	}
   
 }); // closes my document.ready
