@@ -233,7 +233,7 @@ div#home-top-pic-text {
 	box-shadow: 0px 0px 38px black;
 	width: 80%;
 	margin: 5px auto;
-	background: -webkit-linear-gradient(left, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+	background:-webkit-linear-gradient(#6f8be8 0%, #4159a7 51.32%);
 }
 
 #form-row form {
@@ -261,7 +261,7 @@ div#home-top-pic-text {
 #contact-info {
 	border-top: solid black 1px;
 	height: 100px;
-	background: #5f91c9;
+	background: #456d9b;
 	color: white;
 	text-align: center;
 	padding: 3px;
@@ -288,16 +288,18 @@ div#home-top-pic-text {
 
 /* THANK YOU GFORM REDIRECT */
 body#thank-page {
-	background-image: url(img/lake.jpeg);
+	background-image: url(../img/lake.jpg);
+	background-repeat: no-repeat;
 }
 
 #ty-page {
 	text-align: center;
 	vertical-align: middle;
-	width: 50%;
+	width: 75%;
 	height: 150px;
 	margin: 0px auto;
-	background: yellow;
+	background: -webkit-linear-gradient(#8a8a8a 0%, #74307a 72.85%);
+	color: white;
 	border: solid 1px black;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -305,8 +307,82 @@ body#thank-page {
 }
 
 #thank-you {
-	font-size: 1.2em;
-	padding: 50px 5px;
+	font-size: 1.6em;
+	padding: 30px 5px;
+}
+
+#go-back a{
+	text-decoration: none;
+	color: black;
+}
+
+/* PORTFOLIO */
+.portfolio-list {
+	margin: 15px;
+}
+
+.item {
+	float: left;
+	width: 100%;
+	margin-bottom: 60px;
+	border: solid 1px black;
+	background: black;
+	box-shadow: 0px 0px 32px black;
+}
+
+.item-preview {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: solid 1px black;
+	float: left;
+	line-height: 0px;
+}
+
+.item-preview img {
+	margin: 0;
+	padding: 0;
+	opacity: 0.75;
+	width: 100%;
+}
+
+.item-preview img:hover {
+	opacity: 1;
+}
+
+.item-description {
+	background: #f04b4b;
+	border-top: solid 1px #ff6565;
+	width: 100%;
+	height: 50px;
+	text-transform: uppercase;
+	float: left;
+	font-weight: bold;
+}
+
+.item-title {
+	padding: 13px;
+	display: inline;
+	float: left;
+}
+
+.item-title a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.4em;
+}
+
+.item-links {
+	padding: 13px;
+	float: right;
+}
+
+.item-links a {
+	color: #580000;
+	text-decoration: none;
+}
+
+.item-links a:hover {
+	text-decoration: underline;
 }
 
 @media all and (min-width: 940px){
@@ -431,7 +507,7 @@ body#thank-page {
 		width: 100%;
 	}
 	
-	/*  BOTTOM NAV BAR */
+	/* BOTTOM NAV BAR */
 	.nav-bar-bottom {
 		display: none;
 	}
@@ -503,7 +579,7 @@ body#thank-page {
 	}
 	
 	#ty-page {
-		margin: 25% auto;	
+		margin: 15% auto;	
 	}
 
 }

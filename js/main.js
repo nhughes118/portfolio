@@ -12,9 +12,5 @@ $(document).ready(function(){
 	$(function(){
 		$('#pic-js').animate({'bottom': '0px'}, 1000);
 	});
-	
-	function goBack() {
-		window.history.back();
-	}
   
 }); // closes my document.ready
