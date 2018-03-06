@@ -152,6 +152,15 @@ div#home-top-pic-text {
 	clear: both;
 }
 
+#section-2-row h1 {
+	width: 100%;
+	font-size: 2em;
+	text-decoration: underline;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
 #section-2-row img{
 	height: 100px;
 	width: auto;
@@ -473,16 +482,15 @@ body#thank-page {
 	}
 	
 	.twit:hover {
-		color: #00aced;
+		color: #b3b3b3;
 	}
 	
 	.fb:hover {
-		color: #3b5998;
+		color: #b3b3b3;
 	}
 	
 	.linkin:hover {
-		color: #007bb6;
-		background-color: white;
+		color: #b3b3b3;
 		border-radius: 50px;
 	}
 	
