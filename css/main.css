@@ -166,6 +166,10 @@ div#home-top-pic-text {
 	width: auto;
 }
 
+#section-2-row img:hover {
+	transform: rotate(5deg);
+}
+
 #section-2-row p {
 	padding: 5px;
 	margin-bottom: 3px;
