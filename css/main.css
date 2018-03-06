@@ -286,6 +286,27 @@ div#home-top-pic-text {
 	font-size: 1.5em;
 }
 
+/* THANK YOU GFORM REDIRECT */
+body#thank-page {
+	background: pink;
+}
+
+#ty-page {
+	text-align: center;
+	vertical-align: middle;
+	width: 50%;
+	height: 150px;
+	margin: 0px auto;
+	background: yellow;
+	border: solid 1px black;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#thank-you {
+	font-size: 1.2em;
+	padding: 50px 5px;
+}
 
 @media all and (min-width: 940px){
 	body {
@@ -479,7 +500,17 @@ div#home-top-pic-text {
 		display: block;
 		height: 500px;
 	}
+	
+	#ty-page {
+		margin: 25% auto;	
+	}
 
+}
+
+@media all and (max-width: 492px){
+	#ty-page {
+		height: 200px;
+	}
 }
 
 @media all and (min-width: 1675px){
