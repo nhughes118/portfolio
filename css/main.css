@@ -80,6 +80,11 @@ body.nav-bar-open {
 	padding-top: 378px;
 }
 
+.inactiveLink {
+	pointer-events: none;
+	cursor: default;
+}
+
 /* TOP OF INDEX.HTML */
 #home-top-pic{
 	position: static;

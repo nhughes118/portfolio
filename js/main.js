@@ -26,7 +26,6 @@ $(document).ready(function(){
 		$('html,body').animate({
 			'scrollTop': $('#scroll-1').offset().top - offset
 		});
-
 	});
 	
 	$('#site-2').click(function(){
@@ -42,7 +41,6 @@ $(document).ready(function(){
 		$('html,body').animate({
 			'scrollTop': $('#scroll-2').offset().top - offset
 		});
-
 	});
 	
 	$('#site-3').click(function(){
@@ -58,7 +56,6 @@ $(document).ready(function(){
 		$('html,body').animate({
 			'scrollTop': $('#scroll-3').offset().top - offset
 		});
-
 	});
 	
 	$('#site-4').click(function(){
@@ -74,7 +71,6 @@ $(document).ready(function(){
 		$('html,body').animate({
 			'scrollTop': $('#scroll-4').offset().top - offset
 		});
-
 	});
   
 }); // closes my document.ready
