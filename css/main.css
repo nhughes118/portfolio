@@ -565,14 +565,14 @@ body#thank-page {
 	/* 	ABOUT.HTML */
 	.about-me-1 {
 		height: 175px;
-		width: 50%;
+		width: 40%;
 		min-width: 192px;
-		margin: 20% auto;
+		max-width: 404px;
+		margin: 15% auto;
 		padding: 8px;
 		background: #9498c1;
 		color: black;
 		transform: rotate(20deg);
-		z-index: 100;
 		z-index: 3;
 	}
 	
