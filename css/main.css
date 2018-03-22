@@ -177,15 +177,6 @@ div#home-top-pic-text {
 	font-size: 1.2em;
 }
 
-#top{
-	position: absolute;
-	width: 25px;
-	height: auto;
-	right: 5px;
-	bottom: 5px;
-	cursor: pointer;
-}
-
 /* ABOUT.HTML */
 .about-me-1 {
 	height: 175px;
@@ -330,6 +321,44 @@ body#thank-page {
 }
 
 /* PORTFOLIO */
+.port-top li.dropdown {
+	position: relative;
+}
+
+.port-top ul.drpdwncontent {
+	display: none;
+	background-color: PowderBlue;
+	color: black;
+	z-index: 100;
+	position: absolute;
+}
+
+.dropdown:hover .drpdwncontent {
+	display: block;
+	background-color: AliceBlue;
+}
+
+.port-top a:hover {
+	text-decoration: underline;
+	width: 100%;
+}
+
+#port-list {
+	display: inline-block;
+	color: white;
+	font-size: 1.5em;
+	border-bottom: dotted 1px white;
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+#port-list a:visited {
+	color: white;
+}
+
 .portfolio-list {
 	margin: 10px;
 	padding: 65px;
@@ -398,6 +427,27 @@ body#thank-page {
 .item-links a:hover {
 	color: white;
 	text-decoration: underline;
+}
+
+/* BUTTON SCROLL-TO-TOP */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 100;
+    border: none;
+    outline: none;
+    background-color: #73809f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px 50px 10px 10px;
+    font-size: 20px;
+}
+
+#myBtn:hover {
+    background-color: #142051;
 }
 
 @media all and (min-width: 940px){
@@ -472,7 +522,6 @@ body#thank-page {
 	
 	#page-top li {
 		display: inline-block;
-		width: 50px;
 		margin: 5px 10px;
 	}
 	
@@ -595,7 +644,11 @@ body#thank-page {
 	#ty-page {
 		margin: 15% auto;	
 	}
-
+	
+	/* PORTFOLIO PAGE */
+	#page-top span {
+		visibility: hidden;
+	}
 }
 
 @media all and (max-width: 492px){
@@ -615,10 +668,20 @@ body#thank-page {
 	.item-links a {
 		font-size: 1em;
 	}
+	
+	/* PORTFOLIO PAGE */
+	#page-top span {
+		visibility: hidden;
+	}
 }
 
 @media all and (min-width: 1675px){
 	.about-me-1 {
 		margin: 12% auto; /* fixes skills section on browsers with bigger viewports */
+	}
+	
+	/* PORTFOLIO PAGE */
+	#page-top span {
+		visibility: hidden;
 	}
 }

@@ -23,23 +23,29 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
-					<li class="dropdown">
-					<a class="selected">Portfolio</a>
-					<ul class="drpdwncontent">
-						<li><a id="site-1">Site #1</a></li>
-						<li><a id="site-2">Site #2</a></li>
-						<li><a id="site-3">Site #3</a></li>
-						<li><a id="site-4">Site #4</a></li>
-					</ul>
-					</li>
+					<li><a href="portfolio.html"class="selected">Portfolio</a></li>
 				</ul>
 			</div>
 			</header>
 		
 		<div id="page-top" style="background-image: url(img/gaussian_background_gray_glow.jpg)">
-		<p id="hello">Portfolio</p>
+			<span id="hello" class="port-p-tag">Portfolio</span>
+			<div class="port-top">
+				<ul>
+					<li class="dropdown">
+						<a id="port-list">Portfolio</a>
+						<ul class="drpdwncontent">
+							<li><a id="site-1">Site #1</a></li>
+							<li><a id="site-2">Site #2</a></li>
+							<li><a id="site-3">Site #3</a></li>
+							<li><a id="site-4">Site #4</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 		</div>
 		
+<!-- PORTFOLIO ITEMS -->
 		<div class="portfolio-list">
 			<div class="item" id="scroll-1">
 				<div class="item-preview">
@@ -98,10 +104,12 @@
 			</div>
 		</div>
 		</div>
-				
+<!-- PORTFOLIO ITEMS END -->
+		<div>
+			<button onclick="topFunction()" id="myBtn" title="Go to Top">^</button>
+		</div>	
 		<div class="nav-bar-bottom">
 			<footer>
-				<img id="top" src="img/back-to-top.svg" alt="back to top">
 				<a href="https://www.twitter.com"><i class="icon-twitter foot-social"></i></a>
 				<a href="https://www.facebook.com"><i class="icon-facebook foot-social"></i></a>
 				<a href="https://www.linkedin.com"><i class="icon-linkedin foot-social"></i></a>
