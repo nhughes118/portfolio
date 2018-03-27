@@ -434,7 +434,7 @@ body#thank-page {
     display: none;
     position: fixed;
     bottom: 50px;
-    right: 20px;
+    right: 15px;
     z-index: 100;
     border: none;
     outline: none;
@@ -446,8 +446,8 @@ body#thank-page {
     font-size: 20px;
 }
 
-#myBtn:hover {
-    background-color: #142051;
+#myBtn:selected {
+	background-color: #73809f;
 }
 
 @media all and (min-width: 940px){
@@ -669,10 +669,6 @@ body#thank-page {
 		font-size: 1em;
 	}
 	
-	/* PORTFOLIO PAGE */
-	#page-top span {
-		visibility: hidden;
-	}
 }
 
 @media all and (min-width: 1675px){
