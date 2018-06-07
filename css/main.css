@@ -226,6 +226,10 @@ div#home-top-pic-text {
 	margin: 0px 5px 6px 5px;
 }
 
+.foot-social:hover {
+	color: #7b7b7b;
+}
+
 /* CONTACT PAGE MAP */
 #map {
 	height: 400px;
@@ -393,8 +397,8 @@ body#thank-page {
 }
 
 .item-description {
-	background: #f04b4b;
-	border-top: solid 1px #ff6565;
+	background: #5a586d;
+	border-top: solid 1px #586090;
 	width: 100%;
 	height: 50px;
 	text-transform: uppercase;
@@ -420,7 +424,7 @@ body#thank-page {
 }
 
 .item-links a {
-	color: #580000;
+	color: #acc7d7;
 	text-decoration: none;
 }
 
